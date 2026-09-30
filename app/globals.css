@@ -1,8 +1,8 @@
 @import 'tailwindcss';
-@import 'tw-animate-css';
-@import 'shadcn/tailwind.css';
 
 :root {
+  --font-geist-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
   --ink: #152019; --forest: #193c2a; --green: #24573d; --signal: #e5ff57;
   --cream: #f3f0e7; --paper: #fbfaf6; --line: #d8d9cf; --muted: #667067;
   --background: #f3f0e7; --foreground: #152019; --card: #fbfaf6; --card-foreground: #152019;
