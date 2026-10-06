@@ -4,7 +4,7 @@ import { Footer, Header, PageHero } from '@/components/marketing';
 export const metadata: Metadata = {
   title: 'Join the pilot',
   description:
-    'Request a TowLedger walkthrough for your Alberta towing company.',
+    'Request a Tow Docker walkthrough for your Calgary or Alberta towing company.',
   alternates: { canonical: '/contact' },
 };
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
       <PageHero
         eyebrow="JOIN THE PILOT"
         title="Show us how your team documents a tow."
-        text="In a short walkthrough, we’ll learn about your current process and show where TowLedger is designed to fit."
+        text="In a short walkthrough, we’ll learn about your current process and show where Tow Docker is designed to fit."
       />
       <section className="section contact-layout">
         <div className="contact-context">
@@ -53,7 +53,7 @@ export default function Contact() {
         </div>
         <form
           className="lead-form"
-          action="mailto:?subject=TowLedger%20pilot%20request"
+          action="mailto:TowDocker@gmail.com?subject=Tow%20Docker%20pilot%20request"
           method="post"
           encType="text/plain"
         >
@@ -145,9 +145,8 @@ export default function Contact() {
             Request a walkthrough
           </button>
           <small className="form-note">
-            This private review build opens your email app with no recipient.
-            Add your official contact inbox before launch. No information is
-            stored by this website.
+            This form opens your email app and sends your request to
+            TowDocker@gmail.com. No information is stored by this website.
           </small>
         </form>
       </section>
